@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>范晉翔的個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            margin: 0;
+            padding-bottom: 10px;
+        }
+        .portfolio img, .portfolio video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .social-media a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>范晉翔</h1>
+        <p>攝影師</p>
+    </header>
+    <section>
+        <h2>個人簡介</h2>
+        <p>你好，我是范晉翔，一名熱愛攝影的專業攝影師。我的作品涵蓋自然風景、人像攝影以及城市風光，致力於捕捉生活中的每一個美好瞬間。</p>
+    </section>
+    <section class="portfolio">
+        <h2>作品集</h2>
+        <img src="your-image-url-1.jpg" alt="作品1">
+        <img src="your-image-url-2.jpg" alt="作品2">
+        <video controls>
+            <source src="your-video-url-1.mp4" type="video/mp4">
+            您的瀏覽器不支持視頻播放。
+        </video>
+        <video controls>
+            <source src="your-video-url-2.mp4" type="video/mp4">
+            您的瀏覽器不支持視頻播放。
+        </video>
+    </section>
+    <section class="contact">
+        <h2>聯絡方式</h2>
+        <p>Email: <a href="mailto:9355joefan@gmail.com">9355joefan@gmail.com</a></p>
+        <p>電話: 0917-899-199</p>
+        <div class="social-media">
+            <h2>社交媒體</h2>
+            <a href="your-facebook-url" target="_blank">Facebook</a>
+            <a href="your-instagram-url" target="_blank">Instagram</a>
+            <a href="your-twitter-url" target="_blank">Twitter</a>
+        </div>
+    </section>
+</body>
+</html>
